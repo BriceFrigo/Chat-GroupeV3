@@ -1,0 +1,132 @@
+body{
+    background-color: #1C2128;
+}
+
+.important{
+    text-align: center;
+    margin: 0 0 3vw;
+}
+
+.text{
+    margin: 0 auto;
+    width: 70%;
+    padding: 2vw;
+    border: #768390 1px solid;
+    height: 30vw;
+    overflow-y:scroll;
+}
+
+.message span {
+    overflow-wrap: break-word;
+}
+
+span, p, h1, h2, h3, label{
+  color: #ADB5C2;
+}
+
+label{
+  font-size: 2rem;
+}
+
+.message{
+    margin: 0 0 2vw 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(231, 231, 231); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(169, 169, 169); 
+    border-radius: 10px;
+  }
+
+
+  #flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vw 0;
+  }
+
+  #salon{
+    width: 15%;
+    height: 3vh;
+    border: none;
+    border-radius: 5px;
+  }
+
+  #all{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 14vw;
+    background-color: #22272E;
+    padding: 1vw 0;
+  }
+
+  .box{
+    margin: 1vw 4vw;
+    padding: 2vw 0;
+    border: #768390 1px solid;
+    
+  }
+
+  .bleu{
+    
+    color: #539bf5;
+  }
+
+
+  #footer{
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .bleu:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+  #btn{
+    margin: 1vw 0;
+    border: #768390 1px solid;
+  }
+
+  button{
+    padding: 1vw 2vw;
+    border: none;
+    color: #ADB5C2;
+    background-color: #1C2128;
+  }
+
+  button:hover{
+    transition: 2s;
+    color:#595a5b;
+    outline: #414141 1px solid;
+  }
+
+
+  .new-message-from{
+    margin: 1vw 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .new-message-input{
+    margin: 1vw 0;
+    width: 50%;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: #d3d4d5;
+    font-size: 1rem;
+    color: #414141;
+  }
